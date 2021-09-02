@@ -21,7 +21,7 @@ void setup()
 {
   // Debug console
   Serial.begin(9600);
-pinMode(TRIGGERPIN, OUTPUT);
+  pinMode(TRIGGERPIN, OUTPUT);
   pinMode(ECHOPIN, INPUT);
   Blynk.begin(auth, ssid, pass);
   // You can also specify server:
