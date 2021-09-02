@@ -8,12 +8,12 @@
 #define ECHOPIN    D2
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "J1sSxlJ8kF-6hlzOlL9szYrdTUOexmKA";
+char auth[] = "api key";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "***";
-char pass[] = "*******";
+char ssid[] = "wifi id";
+char pass[] = "wifi password";
 
 WidgetLCD lcd(V1);
 
